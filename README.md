@@ -1,4 +1,4 @@
-# npm-lib-tmpl [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)[![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
+# npm-lib-tmpl [![Release](https://github.com/rising3/npm-lib-tmpl/actions/workflows/release.yml/badge.svg?branch=main)](https://github.com/rising3/npm-lib-tmpl/actions/workflows/release.yml) [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)[ ![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow.svg)](https://conventionalcommits.org)
 
 ## About
 
@@ -6,8 +6,10 @@ This repository is a template for JavaScript npm library.
 
 ## Highlights
 
-* Fully automated release to GitHub Packages.
-* Add support for
+* Fully automated release to:
+  * GitHub Packages
+  * GitHub Releases
+* Add support for:
   * semantic-release
   * semantic-version
   * conventional-commits
@@ -19,3 +21,4 @@ This repository is a template for JavaScript npm library.
   * Node.js v12 ot higher installed
   * Git CLI 2.7.1 or higher installed
 * Use the GitHub Packages as a npm registry
+* Use the GitHub Releases as a changelog
