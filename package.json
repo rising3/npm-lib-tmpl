@@ -1,6 +1,6 @@
 {
   "name": "@rising3/npm-lib-tmpl",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "npm lib template",
   "main": "./lib/index.js",
   "repository": "https://github.com/rising3/npm-lib-tmpl.git",
