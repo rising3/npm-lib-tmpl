@@ -1,10 +1,16 @@
 {
   "name": "@rising3/npm-lib-tmpl",
-  "version": "0.0.1",
-  "description": "npm lib template",
+  "version": "0.0.0",
+  "description": "This repository is a template for JavaScript npm library.",
   "main": "./lib/index.js",
   "repository": "https://github.com/rising3/npm-lib-tmpl.git",
   "author": "Michio Nakagawa <michio.nakagawa@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/rising3/npm-lib-tmpl/issues"
+  },
+  "contributors": [
+    "rising3 (https://twitter.com/@rising3)"
+  ],
   "license": "MIT",
   "private": false,
   "publishConfig": {
