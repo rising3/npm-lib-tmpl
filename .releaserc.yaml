@@ -1,11 +1,18 @@
-branch:
+branches:
   - master
   - main
   - next
   - '[0-9]+.[0-9]+.x'
   - next-major
-  - alpha
-  - beta
+  - name: alpha
+    prerelease: true
+  - name: beta
+    prerelease: true
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/github'
+  - '@semantic-release/git'
 ci: false
 dryRun: false
 debug: false
