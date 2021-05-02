@@ -3,7 +3,7 @@ let actual
 
 beforeEach(() => {
   actual = new Hello('taro')
-});
+})
 
 describe('hello', () => {
   it('${name} to equal Hello, ${name}', () => {
