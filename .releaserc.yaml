@@ -8,6 +8,11 @@ branches:
     prerelease: true
   - name: beta
     prerelease: true
+plugins:
+  - '@semantic-release/commit-analyzer'
+  - '@semantic-release/release-notes-generator'
+  - '@semantic-release/github'
+  - '@semantic-release/git'
 ci: false
 dryRun: false
 debug: false
