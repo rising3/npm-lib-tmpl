@@ -1,4 +1,11 @@
-branch: main
+branch:
+  - master
+  - main
+  - next
+  - '[0-9]+.[0-9]+.x'
+  - next-major
+  - alpha
+  - beta
 ci: false
 dryRun: false
 debug: false
