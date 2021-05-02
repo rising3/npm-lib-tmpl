@@ -20,7 +20,7 @@
     "branches": [
       "main",
       "next",
-      "next-majror",
+      "next-major",
       "[0-9]+.[0-9]+.x",
       "alpha",
       "beta"
