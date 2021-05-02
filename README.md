@@ -52,4 +52,3 @@ const it = require('@rising3/npm-lib-tmpl')
 
 console.log(it.sum(1, 2))
 ```
-
