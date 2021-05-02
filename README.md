@@ -44,7 +44,7 @@ To add a dependency on npm-lib-tmpl using yarn, use the following:
 $ yarn add @rising3/npm-lib-tmpl@{latest}
 ```
 
-### Usage:
+### Usage to npm-lib-tmpl
 
 **index.js**
 ``` javascript
