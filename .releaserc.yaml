@@ -1,9 +1,8 @@
 branches:
   - master
-  - main
   - next
-  - '[0-9]+.[0-9]+.x'
   - next-major
+  - '[0-9]+.[0-9]+.x'
   - name: alpha
     prerelease: true
   - name: beta
@@ -14,8 +13,8 @@ plugins:
   - '@semantic-release/github'
   - '@semantic-release/git'
   - '@semantic-release/npm'
-  - 'semantic-release-npm-github-publish'
+#  - 'semantic-release-npm-github-publish'
 ci: false
 dryRun: false
 debug: false
-extends: "semantic-release-npm-github-publish"
+# extends: "semantic-release-npm-github-publish"
