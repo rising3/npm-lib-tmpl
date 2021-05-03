@@ -15,4 +15,7 @@ describe('calc', () => {
   it('mul 3 * 3 to equal 9', () => {
     expect(actual.mul(3, 3)).toBe(9)
   })
+  it('div 10 * 2 to equal 5', () => {
+    expect(actual.div(10, 2)).toBe(5)
+  })
 })
